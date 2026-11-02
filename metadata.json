@@ -1,0 +1,8 @@
+{
+  "name": "1xbet-aviator-india Gaming Platform",
+  "description": "Premier Aviator-style flight multiplier simulation platform with animated real-time curve, account management, deposit tracking, withdrawal workflows, and secure administrative controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

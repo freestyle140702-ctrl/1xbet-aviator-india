@@ -1,0 +1,583 @@
+{
+  "users": [
+    {
+      "id": "admin-ccba6b0e-1c23-4dca-9916-7b9dbfa82a64",
+      "username": "admin",
+      "email": "admin@aviator.pro",
+      "name": "System Administrator",
+      "phone": "+91 9876543210",
+      "passwordHash": "23cd438076ca2c115b2d9ac9ce47751a39b99b2897c714749b12d316171f72ceb68eaf48d64f8fb05541792d39d3e22938f14f7808e57989af5e8c3c573057ee",
+      "salt": "a29cfd187e088324a13e5f2b08499b03",
+      "role": "admin",
+      "balance": 0,
+      "status": "active",
+      "createdAt": "2026-10-18T15:27:10.133Z",
+      "lastLoginAt": "2026-10-19T08:16:31.992Z"
+    },
+    {
+      "id": "usr-c54b9d4a-d94f-44b7-911f-6f03eda74330",
+      "email": "ddd908783@gmail.com",
+      "name": "Dharmesh",
+      "phone": "8879229692",
+      "passwordHash": "13c21778323993bdb464557a508829c987cd1ecf994f18be2a436c943687f3fbeb62a11658f37e237300ae91aa64c25ed02b83ea22afce924493b2e4e4962ee1",
+      "salt": "5b285b61d67bb09363957370ef770d24",
+      "role": "user",
+      "balance": 185.6,
+      "status": "active",
+      "createdAt": "2026-10-19T07:39:30.751Z",
+      "lastLoginAt": "2026-10-19T08:17:28.268Z"
+    }
+  ],
+  "deposits": [
+    {
+      "id": "dep-3d54674f-22e6-4f20-b805-fbb4ce220a32",
+      "userId": "usr-c54b9d4a-d94f-44b7-911f-6f03eda74330",
+      "userEmail": "ddd908783@gmail.com",
+      "userName": "Dharmesh",
+      "amount": 100,
+      "utrNumber": "662522683119",
+      "upiId": "14dharmesh@fam",
+      "status": "verified",
+      "createdAt": "2026-10-19T07:39:37.224Z",
+      "verifiedAt": "2026-10-19T08:16:49.118Z",
+      "verifiedBy": "admin@aviator.pro"
+    }
+  ],
+  "withdrawals": [],
+  "gameRounds": [
+    {
+      "id": "round-init-0",
+      "roundNumber": 1000,
+      "crashMultiplier": 1.25,
+      "serverSeed": "dd82768cf5bebb0cd23944d6d7c466ff",
+      "clientSeed": "3e7d8d26f39ccb6d",
+      "createdAt": "2026-10-18T15:22:10.135Z"
+    },
+    {
+      "id": "round-init-1",
+      "roundNumber": 1001,
+      "crashMultiplier": 2.45,
+      "serverSeed": "a9d9afc1b72b449b08ef34bd5ecd5d71",
+      "clientSeed": "72840ce96b40717b",
+      "createdAt": "2026-10-18T15:22:30.135Z"
+    },
+    {
+      "id": "round-init-2",
+      "roundNumber": 1002,
+      "crashMultiplier": 1.12,
+      "serverSeed": "4c267b6e100d6c69079c5eae68031462",
+      "clientSeed": "f119e08d338036c2",
+      "createdAt": "2026-10-18T15:22:50.135Z"
+    },
+    {
+      "id": "round-init-3",
+      "roundNumber": 1003,
+      "crashMultiplier": 5.84,
+      "serverSeed": "ac5dbea1a78669d03a4d281a9a9c554d",
+      "clientSeed": "fdf535c7d3309c26",
+      "createdAt": "2026-10-18T15:23:10.135Z"
+    },
+    {
+      "id": "round-init-4",
+      "roundNumber": 1004,
+      "crashMultiplier": 1.77,
+      "serverSeed": "e22c9fab7f060a03817e1c1b2a4780a8",
+      "clientSeed": "52fea288877c1105",
+      "createdAt": "2026-10-18T15:23:30.135Z"
+    },
+    {
+      "id": "round-init-5",
+      "roundNumber": 1005,
+      "crashMultiplier": 12.3,
+      "serverSeed": "986ad1485ac64f150ca05529320d5b0f",
+      "clientSeed": "98fe15b1e6226cfa",
+      "createdAt": "2026-10-18T15:23:50.135Z"
+    },
+    {
+      "id": "round-init-6",
+      "roundNumber": 1006,
+      "crashMultiplier": 1.08,
+      "serverSeed": "0ee539e28b2e89eae54d387f489fe928",
+      "clientSeed": "d95d0138fb849261",
+      "createdAt": "2026-10-18T15:24:10.135Z"
+    },
+    {
+      "id": "round-init-7",
+      "roundNumber": 1007,
+      "crashMultiplier": 3.15,
+      "serverSeed": "55c8538b78aafd5ed5162b1cf2bd3c47",
+      "clientSeed": "2080a661cd3718a6",
+      "createdAt": "2026-10-18T15:24:30.135Z"
+    },
+    {
+      "id": "round-init-8",
+      "roundNumber": 1008,
+      "crashMultiplier": 1.94,
+      "serverSeed": "1723219e484daa627a50eda7f5372595",
+      "clientSeed": "c492e1bf0eb6c9fd",
+      "createdAt": "2026-10-18T15:24:50.136Z"
+    },
+    {
+      "id": "round-init-9",
+      "roundNumber": 1009,
+      "crashMultiplier": 4.62,
+      "serverSeed": "af13f1b20573a12fa4516d3b5b849625",
+      "clientSeed": "ea5d750b35316038",
+      "createdAt": "2026-10-18T15:25:10.136Z"
+    },
+    {
+      "id": "round-init-10",
+      "roundNumber": 1010,
+      "crashMultiplier": 1.4,
+      "serverSeed": "003b039494f2e8aa890ad8d763811e7c",
+      "clientSeed": "8a79e5f26e7c082f",
+      "createdAt": "2026-10-18T15:25:30.136Z"
+    },
+    {
+      "id": "round-init-11",
+      "roundNumber": 1011,
+      "crashMultiplier": 8.91,
+      "serverSeed": "4c952b06c21f13bf88551740cfe1e6bd",
+      "clientSeed": "24ed7f9436dc0d41",
+      "createdAt": "2026-10-18T15:25:50.136Z"
+    },
+    {
+      "id": "round-init-12",
+      "roundNumber": 1012,
+      "crashMultiplier": 1.03,
+      "serverSeed": "5eef003a646c399b50749ada3f871e3c",
+      "clientSeed": "30fd171d456683c1",
+      "createdAt": "2026-10-18T15:26:10.136Z"
+    },
+    {
+      "id": "round-init-13",
+      "roundNumber": 1013,
+      "crashMultiplier": 2.18,
+      "serverSeed": "5ebf631b52da0c57433a068968cf3bda",
+      "clientSeed": "9e60dc03d9033de4",
+      "createdAt": "2026-10-18T15:26:30.136Z"
+    },
+    {
+      "id": "round-init-14",
+      "roundNumber": 1014,
+      "crashMultiplier": 6.75,
+      "serverSeed": "db5e6ec3c5354813f1bbc7820f9aca8e",
+      "clientSeed": "d3833947703db744",
+      "createdAt": "2026-10-18T15:26:50.136Z"
+    },
+    {
+      "id": "rnd-f4b29a35-ca08-491e-a8ac-e2fbfd6e8b77",
+      "roundNumber": 1015,
+      "crashMultiplier": 1.18,
+      "serverSeed": "a0a10d6aac04164979238e1001f743885a2b874eca04cc90628ad976b9b59e72",
+      "clientSeed": "f9ee246f2eb01d47a5f43d9ece0bbead",
+      "createdAt": "2026-10-18T15:45:50.713Z"
+    },
+    {
+      "id": "rnd-010bcb4f-d5c6-4a84-9861-a9727c96d379",
+      "roundNumber": 1016,
+      "crashMultiplier": 2.51,
+      "serverSeed": "5c02cf329a4768cb391ad6fdd23c0118eeb5252d1ae14e05d06b8c4402c70ee5",
+      "clientSeed": "b4595b76ca5296d3625c049e4291fb72",
+      "createdAt": "2026-10-18T15:46:06.239Z"
+    },
+    {
+      "id": "rnd-39faf81a-46b3-4acf-a35d-4426a563f5ff",
+      "roundNumber": 1017,
+      "crashMultiplier": 2.03,
+      "serverSeed": "c1ffa9a9a3e126d10f19eec785c83b32c8b1816bfe78352653eef34123d27924",
+      "clientSeed": "3fe2874e33701fb82fc88cbb1954e6f2",
+      "createdAt": "2026-10-18T15:46:18.317Z"
+    },
+    {
+      "id": "rnd-38688dd0-196b-4318-bbb0-15ab6e655426",
+      "roundNumber": 1018,
+      "crashMultiplier": 3.59,
+      "serverSeed": "7d134662c13c7038570fd7b21c80bbec965719628bf1889097f053887aae4658",
+      "clientSeed": "ce5804c6853627514479491a37a26e30",
+      "createdAt": "2026-10-18T15:47:31.570Z"
+    },
+    {
+      "id": "rnd-49dac7a5-cce0-4197-981a-8b22c00b763d",
+      "roundNumber": 1019,
+      "crashMultiplier": 2.06,
+      "serverSeed": "e864a10455048b62e863c7c3bcd1b5ac13ab67f44a55707168ed0c0713f8bf8a",
+      "clientSeed": "915c8a41f8e47b56ce84acd335ce834e",
+      "createdAt": "2026-10-18T16:23:32.677Z"
+    },
+    {
+      "id": "rnd-b4e10d42-f85c-4ac6-9ccf-611edfd82559",
+      "roundNumber": 1020,
+      "crashMultiplier": 2.14,
+      "serverSeed": "0fcc8e46f0bf8a6eb4d92f8fee85b41171fb3ff97ced9d8899bc59eb10830fd5",
+      "clientSeed": "e93cb161ae08ffa547401511775d5280",
+      "createdAt": "2026-10-18T16:24:00.052Z"
+    },
+    {
+      "id": "rnd-bdb2f999-943d-49b0-a24a-0d9f3e7703e4",
+      "roundNumber": 1021,
+      "crashMultiplier": 1,
+      "serverSeed": "b6fc7bf66c0984377374875b58abd57bb6243a7bb81c331b012f42084b8916d1",
+      "clientSeed": "9ed40ab6d4091080ec00016aa8255242",
+      "createdAt": "2026-10-19T07:39:46.421Z"
+    },
+    {
+      "id": "rnd-391f5806-f462-4d7e-80c4-0dfc3381238e",
+      "roundNumber": 1022,
+      "crashMultiplier": 1.14,
+      "serverSeed": "aca474dd48b5969c5ac08d194cb86e757483b73f029417feaa38f90de0ca96a0",
+      "clientSeed": "b2caa7e9992b062674f28603e7c1b962",
+      "createdAt": "2026-10-19T07:39:55.715Z"
+    },
+    {
+      "id": "rnd-83c89db1-5742-4cb8-a24f-a4bd5d2066c4",
+      "roundNumber": 1023,
+      "crashMultiplier": 3.74,
+      "serverSeed": "fa6e7e93943390ce32783bd125462dda0b522cc37c43646089b73453ab3f1f6a",
+      "clientSeed": "495c88320817b63c5ba3273dbfc94d07",
+      "createdAt": "2026-10-19T07:40:05.575Z"
+    },
+    {
+      "id": "rnd-a00c1588-26f9-443e-9a5c-909a79e40f6a",
+      "roundNumber": 1024,
+      "crashMultiplier": 1.71,
+      "serverSeed": "8019dd3e4d3ee276240f3ba04478f67e5431b24c6efc865740edc8bdc16d77ff",
+      "clientSeed": "8a0c6b862523ea93bfbf4b2c5f04affd",
+      "createdAt": "2026-10-19T07:40:19.475Z"
+    },
+    {
+      "id": "rnd-676406b6-d4d0-454b-9d77-b05cda5561f3",
+      "roundNumber": 1025,
+      "crashMultiplier": 1.73,
+      "serverSeed": "a68f5fb9017d5f7475d75d72175527b99415d4c934c7d2278b789e9993c9ec1d",
+      "clientSeed": "065d43a3392879ba00f0b1bc804cb06f",
+      "createdAt": "2026-10-19T07:40:30.495Z"
+    },
+    {
+      "id": "rnd-848f62e4-c2c0-4f59-84d9-9e12a3a04fcb",
+      "roundNumber": 1026,
+      "crashMultiplier": 3.37,
+      "serverSeed": "c3c55191b97e357aaad8e9e200ca2fe7c26335e347b97a752be9ef81b58e9370",
+      "clientSeed": "f81c23af5a89c9fa9dec677eba982d7b",
+      "createdAt": "2026-10-19T07:48:31.271Z"
+    },
+    {
+      "id": "rnd-0d93133b-af9d-4d84-9450-dc238a918ade",
+      "roundNumber": 1027,
+      "crashMultiplier": 1.13,
+      "serverSeed": "b1597d5d879ef06fe9845dd6e94c0cf99ac7fddbfbd063bd2a85e15a92421657",
+      "clientSeed": "0fa1c5dc888aa3de51724b439d117c86",
+      "createdAt": "2026-10-19T07:48:44.697Z"
+    },
+    {
+      "id": "rnd-0139968f-a7c9-4c44-8091-db64355269fb",
+      "roundNumber": 1028,
+      "crashMultiplier": 2.53,
+      "serverSeed": "043405b959882ff2553017be7cb643bfa4889dae3aa8ef618bcccf18e388e40f",
+      "clientSeed": "28216b5b641645d833d32645f60bd829",
+      "createdAt": "2026-10-19T07:48:54.477Z"
+    },
+    {
+      "id": "rnd-88000efb-eadc-4aec-a35f-480e662f0d77",
+      "roundNumber": 1029,
+      "crashMultiplier": 2.87,
+      "serverSeed": "f947073fbc8dcd9a6940241313dea7acdf8cd8b299500b6026a5666bcea8295e",
+      "clientSeed": "9229e9db08e63479330ddd2596d33f13",
+      "createdAt": "2026-10-19T07:49:06.857Z"
+    },
+    {
+      "id": "rnd-cf543f91-9bda-42f9-9492-eeeede078323",
+      "roundNumber": 1030,
+      "crashMultiplier": 1.48,
+      "serverSeed": "3e6b8c355a2c2d58f211b379727d73cfc1b8c56ffc1e1685fe8bbd78f1b76a73",
+      "clientSeed": "d806fd1fd97a6a2f5340de031447d28b",
+      "createdAt": "2026-10-19T07:49:24.121Z"
+    },
+    {
+      "id": "rnd-454d7f27-713c-452f-87fd-ee4f3187bc73",
+      "roundNumber": 1031,
+      "crashMultiplier": 13.87,
+      "serverSeed": "5441384dbf600bee07f1537695825f7f3f19898ef665ea3c78b5f74d0e53d2de",
+      "clientSeed": "4425abd0d0cc99e419cafd8d5cac4805",
+      "createdAt": "2026-10-19T07:49:32.520Z"
+    },
+    {
+      "id": "rnd-62f77168-545f-4881-a45c-dae1be6f4ca1",
+      "roundNumber": 1032,
+      "crashMultiplier": 2.53,
+      "serverSeed": "d61fa3c80241d972be2b7a0145e4ecf8000a749d87963b68cf52f6a08604d852",
+      "clientSeed": "170bc19eedddb8596bb89462b0a37e50",
+      "createdAt": "2026-10-19T08:17:39.848Z"
+    },
+    {
+      "id": "rnd-837c0096-12aa-4917-8ca7-d4bad055bdd2",
+      "roundNumber": 1033,
+      "crashMultiplier": 2.57,
+      "serverSeed": "4e999e7b6fdb66658805491e490f84d1b1212b062514eee400cc51dc69d598f1",
+      "clientSeed": "afbf15a38a2c72640ebab06814f3d06c",
+      "createdAt": "2026-10-19T08:17:52.205Z"
+    },
+    {
+      "id": "rnd-6213a7bc-24b1-45c8-8151-1a80001128d9",
+      "roundNumber": 1034,
+      "crashMultiplier": 2.77,
+      "serverSeed": "d5cae3bb54c90e932e3b7585303a38e4bd3dd4ed71463fd31c720e3a6ed51b8c",
+      "clientSeed": "a6274f68d49423fe89f001e5ddfccdf8",
+      "createdAt": "2026-10-19T08:18:04.630Z"
+    },
+    {
+      "id": "rnd-59bc15c4-f2e3-40bc-88e5-690f0591305a",
+      "roundNumber": 1035,
+      "crashMultiplier": 1.28,
+      "serverSeed": "941df8c01ab1308aa03d39be5234f05231c5889dcb1f087e41b7a2f30d1a6a6c",
+      "clientSeed": "de3f751cb9a95f5affe586ed6fb78582",
+      "createdAt": "2026-10-19T08:18:17.303Z"
+    },
+    {
+      "id": "rnd-cb738f45-15c5-4c17-bd75-f6af430119bb",
+      "roundNumber": 1036,
+      "crashMultiplier": 1.9,
+      "serverSeed": "8931483103763b51914b2759763540edff59d98e4de60362e8391df325d8524a",
+      "clientSeed": "94159e64ccba2f571d1bba6ac98c033b",
+      "createdAt": "2026-10-19T08:18:27.490Z"
+    },
+    {
+      "id": "rnd-1969e73b-9112-4b17-9379-636825be30b2",
+      "roundNumber": 1037,
+      "crashMultiplier": 3.2,
+      "serverSeed": "44553c10d70e36eaf8cc5edf379b32739a6f5ce32e737c4c066aa77a26bcdaf9",
+      "clientSeed": "35beec8922e9c10cce75587baad21576",
+      "createdAt": "2026-10-19T08:18:38.927Z"
+    },
+    {
+      "id": "rnd-0ebcaecf-d0be-439a-a1d2-72f376869cad",
+      "roundNumber": 1038,
+      "crashMultiplier": 2.06,
+      "serverSeed": "f578872cb67b4d5baf354b4ee826947a5a1c1a54ed3c62805b9de26c7838b4bb",
+      "clientSeed": "8fbcf9a51b8b618db6ff9ffe4d0536be",
+      "createdAt": "2026-10-19T08:18:58.848Z"
+    },
+    {
+      "id": "rnd-6655da6a-89e4-4b4d-a7a7-1864d9482793",
+      "roundNumber": 1039,
+      "crashMultiplier": 1.94,
+      "serverSeed": "4381c0233df00ecb6bad0509202e8c8166041f085233522a857dc17df06c67e4",
+      "clientSeed": "2b28cec9e395dc7a787e51491a98c05d",
+      "createdAt": "2026-10-19T08:20:43.455Z"
+    },
+    {
+      "id": "rnd-33f7b797-1109-454a-a3b5-a11640c1883d",
+      "roundNumber": 1040,
+      "crashMultiplier": 1.06,
+      "serverSeed": "be5df6871c46f9a367eeeac3affe040f2389dad9c6e0c577e1bd120b635ec79b",
+      "clientSeed": "1ae0a0c33121a24fb490a5b5bffe6f4a",
+      "createdAt": "2026-10-19T08:21:32.358Z"
+    },
+    {
+      "id": "rnd-8173c6ad-d447-40bf-b39b-96116c0d4229",
+      "roundNumber": 1041,
+      "crashMultiplier": 10.37,
+      "serverSeed": "b8e6079ea9478ab3aee0cea9f89d3d4d0638a3f7a1c5acd41a27f28f3c1604d1",
+      "clientSeed": "771cc024eb19438abc55c0252ffccda8",
+      "createdAt": "2026-10-19T08:23:06.432Z"
+    },
+    {
+      "id": "rnd-c4edd450-9f62-4c0b-af0a-a5412ccbaddc",
+      "roundNumber": 1042,
+      "crashMultiplier": 1.56,
+      "serverSeed": "eb4eaeb273879492d0913c39fa2a42c01cc448e410bf16dc41fd9cb8c1ed5067",
+      "clientSeed": "c9930e8b1063cdc87da03a787e2a52fe",
+      "createdAt": "2026-10-19T08:23:06.458Z"
+    }
+  ],
+  "userBets": [
+    {
+      "id": "bet-98919e74-0c12-430a-ad93-ee94878bc5ef",
+      "userId": "usr-c54b9d4a-d94f-44b7-911f-6f03eda74330",
+      "userEmail": "ddd908783@gmail.com",
+      "roundId": "rnd-62f77168-545f-4881-a45c-dae1be6f4ca1",
+      "roundNumber": 1032,
+      "betAmount": 20,
+      "status": "active",
+      "createdAt": "2026-10-19T08:17:43.032Z"
+    },
+    {
+      "id": "bet-e9d941a2-bb29-4e53-b0a0-28695aa417ba",
+      "userId": "usr-c54b9d4a-d94f-44b7-911f-6f03eda74330",
+      "userEmail": "ddd908783@gmail.com",
+      "roundId": "rnd-837c0096-12aa-4917-8ca7-d4bad055bdd2",
+      "roundNumber": 1033,
+      "betAmount": 10,
+      "status": "won",
+      "createdAt": "2026-10-19T08:17:56.320Z",
+      "cashedOutMultiplier": 1.66,
+      "winAmount": 16.6
+    },
+    {
+      "id": "bet-85f6d21b-bc63-401e-b417-ca3adfca88cb",
+      "userId": "usr-c54b9d4a-d94f-44b7-911f-6f03eda74330",
+      "userEmail": "ddd908783@gmail.com",
+      "roundId": "rnd-59bc15c4-f2e3-40bc-88e5-690f0591305a",
+      "roundNumber": 1035,
+      "betAmount": 1,
+      "status": "active",
+      "createdAt": "2026-10-19T08:18:17.691Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-82620866-0546-45f0-8fb2-5b2b6f71ffc4",
+      "actorId": "usr-c54b9d4a-d94f-44b7-911f-6f03eda74330",
+      "actorEmail": "ddd908783@gmail.com",
+      "actorRole": "user",
+      "action": "USER_LOGIN",
+      "target": "ddd908783@gmail.com",
+      "details": "User logged in successfully",
+      "ip": "2402:3a80:4290:9400:0:20:3b3d:eb01, 169.254.169.126",
+      "createdAt": "2026-10-19T08:17:28.269Z"
+    },
+    {
+      "id": "audit-f00c4691-87dd-4be9-ac07-5aeadb34fe7b",
+      "actorId": "admin-ccba6b0e-1c23-4dca-9916-7b9dbfa82a64",
+      "actorEmail": "admin@aviator.pro",
+      "actorRole": "admin",
+      "action": "USER_BALANCE_ADJUSTED",
+      "target": "ddd908783@gmail.com",
+      "details": "Admin balance adjustment (add ₹100). Previous: ₹100, New: ₹200. Note: Administrative credit/debit",
+      "ip": "2402:3a80:4290:9400:0:20:3b3d:eb01, 169.254.169.126",
+      "createdAt": "2026-10-19T08:17:06.771Z"
+    },
+    {
+      "id": "audit-893820f2-995b-43be-a360-3b9e6609fc8f",
+      "actorId": "admin-ccba6b0e-1c23-4dca-9916-7b9dbfa82a64",
+      "actorEmail": "admin@aviator.pro",
+      "actorRole": "admin",
+      "action": "DEPOSIT_VERIFIED",
+      "target": "dep-3d54674f-22e6-4f20-b805-fbb4ce220a32",
+      "details": "Deposit of ₹100 (UTR: 662522683119) verified for ddd908783@gmail.com. Balance credited.",
+      "ip": "2402:3a80:4290:9400:0:20:3b3d:eb01, 169.254.169.126",
+      "createdAt": "2026-10-19T08:16:49.118Z"
+    },
+    {
+      "id": "audit-5f967417-d411-4237-be50-a821d722a0a6",
+      "actorId": "admin-ccba6b0e-1c23-4dca-9916-7b9dbfa82a64",
+      "actorEmail": "admin@aviator.pro",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "target": "admin@aviator.pro",
+      "details": "User logged in successfully",
+      "ip": "2402:3a80:4290:9400:0:20:3b3d:eb01, 169.254.169.126",
+      "createdAt": "2026-10-19T08:16:31.996Z"
+    },
+    {
+      "id": "audit-f9714b39-27f9-4aa9-a996-9b16a131e2f3",
+      "actorId": "admin-ccba6b0e-1c23-4dca-9916-7b9dbfa82a64",
+      "actorEmail": "admin@aviator.pro",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "target": "admin@aviator.pro",
+      "details": "User logged in successfully",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-19T08:14:00.156Z"
+    },
+    {
+      "id": "audit-cdd178bd-eaee-42bb-bce3-f58904311558",
+      "actorId": "usr-c54b9d4a-d94f-44b7-911f-6f03eda74330",
+      "actorEmail": "ddd908783@gmail.com",
+      "actorRole": "user",
+      "action": "DEPOSIT_SUBMITTED",
+      "target": "dep-3d54674f-22e6-4f20-b805-fbb4ce220a32",
+      "details": "Deposit request of ₹100 submitted with UTR 662522683119. Status: PENDING",
+      "ip": "2402:3a80:4290:9400:0:20:3b3d:eb01, 169.254.169.126",
+      "createdAt": "2026-10-19T07:39:37.224Z"
+    },
+    {
+      "id": "audit-bb1e631f-ac53-4042-8419-dc2ba0343a07",
+      "actorId": "usr-c54b9d4a-d94f-44b7-911f-6f03eda74330",
+      "actorEmail": "ddd908783@gmail.com",
+      "actorRole": "user",
+      "action": "USER_REGISTERED",
+      "target": "ddd908783@gmail.com",
+      "details": "New user account created with initial balance ₹0",
+      "ip": "2402:3a80:4290:9400:0:20:3b3d:eb01, 169.254.169.126",
+      "createdAt": "2026-10-19T07:39:30.752Z"
+    },
+    {
+      "id": "audit-067d0f62-483f-4aa7-be81-6aecba9b2a9a",
+      "actorId": "admin-ccba6b0e-1c23-4dca-9916-7b9dbfa82a64",
+      "actorEmail": "admin@aviator.pro",
+      "actorRole": "admin",
+      "action": "USER_LOGIN",
+      "target": "admin@aviator.pro",
+      "details": "User logged in successfully",
+      "ip": "127.0.0.1",
+      "createdAt": "2026-10-18T15:35:36.793Z"
+    }
+  ],
+  "settings": {
+    "upiId": "14dharmesh@fam",
+    "upiName": "Dharmesh (FamPay UPI)",
+    "minDeposit": 100,
+    "maxDeposit": 50000,
+    "minWithdrawal": 100,
+    "maxWithdrawal": 25000,
+    "announcementText": "Welcome to Aviator Aero! Virtual flight simulation. Verify deposits via 12-digit UTR in the Deposit section.",
+    "showAnnouncement": true,
+    "gameInstructionText": "Aviator is a multiplier crash game. Place your virtual bet before takeoff. Watch the lucky plane soar as the multiplier climbs. Cash out before the plane flies away to secure your virtual win!",
+    "maintenanceMode": false,
+    "supportHandle": "@AviatorSupportBot",
+    "customQrUrl": "/images/attached_qr_code.jpg",
+    "houseEdgePercent": 3.5,
+    "animationSpeedMultiplier": 1,
+    "autoRoundIntervalSec": 6
+  },
+  "products": [
+    {
+      "id": "prod-starter-100",
+      "title": "Starter Flight Credits",
+      "description": "Basic flight credits for new aviators",
+      "price": 100,
+      "credits": 100,
+      "bonusText": "+5% Welcome Bonus",
+      "category": "credits",
+      "createdAt": "2026-10-19T08:13:46.904Z"
+    },
+    {
+      "id": "prod-pro-500",
+      "title": "Aviator Pro Pack",
+      "description": "Popular pack for regular flyers",
+      "price": 500,
+      "credits": 550,
+      "bonusText": "+10% High Altitude Bonus",
+      "category": "credits",
+      "createdAt": "2026-10-19T08:13:46.905Z"
+    },
+    {
+      "id": "prod-vip-2000",
+      "title": "High Roller VIP Pack",
+      "description": "Maximum altitude package with VIP benefits",
+      "price": 2000,
+      "credits": 2400,
+      "bonusText": "+20% VIP Bonus",
+      "category": "vip",
+      "createdAt": "2026-10-19T08:13:46.905Z"
+    }
+  ],
+  "sessions": {
+    "900cfaafad6c70c18528953d9581f2826d279687237f0bc5cc8b1db75caba97c": {
+      "userId": "admin-ccba6b0e-1c23-4dca-9916-7b9dbfa82a64",
+      "createdAt": "2026-10-18T15:35:36.793Z",
+      "expiresAt": "2026-10-25T15:35:36.793Z"
+    },
+    "249b35a87405026cc07140a2f6af791e28efcdc907e029f44b3cd41cb2e27e66": {
+      "userId": "admin-ccba6b0e-1c23-4dca-9916-7b9dbfa82a64",
+      "createdAt": "2026-10-19T08:14:00.155Z",
+      "expiresAt": "2026-10-26T08:14:00.155Z"
+    },
+    "8526b3e725ab0adcd88d6b815a4a518bfbbf68a70bd5d709d1dc7273074193f6": {
+      "userId": "usr-c54b9d4a-d94f-44b7-911f-6f03eda74330",
+      "createdAt": "2026-10-19T08:17:28.268Z",
+      "expiresAt": "2026-10-26T08:17:28.268Z"
+    }
+  }
+}
